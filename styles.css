@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --logo-color: #fb8e0b;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  color: var(--logo-color);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.introduction {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.paragraph {
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 1rem 0;
+  color: gray;
+  padding: 1rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 18px;
+  border-radius: 10px;
+  border: none;
+  margin: 1.5rem 1rem;
+  background: orange;
+}
+
+.arrow-right {
+  height: 20px;
+}
+
+.customer {
+  margin: 1.5rem 1rem;
+  position: relative;
+  display: block;
+}
+
+.item1 {
+  position: absolute;
+  z-index: 6;
+}
+
+.item2 {
+  position: absolute;
+  left: 40px;
+  z-index: 5;
+}
+
+.item3 {
+  position: relative;
+  left: 80px;
+  z-index: 4;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.checked {
+  color: orange;
+}
+
+.star-ratings {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rating-numbers {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.rating-paragraph {
+  font-size: 18px;
+  font-weight: lighter;
+  color: gray;
+}
+
+.hero-section {
+  margin: 2rem 1rem;
+}
+
+.features {
+  text-align: center;
+  margin: 1rem;
+}
+
+.feature-heading {
+  font-size: 2rem;
+}
+
+.features-options {
+  margin: 2rem 0;
+}
+
+.features-option-heading {
+  font-size: 1.5rem;
+  margin: 0.7rem 0;
+}
+
+.features-options-paragraph {
+  color: gray;
+  font-size: 1.1rem;
+}
+.video-call-image {
+  margin: 1rem;
+}
+.video-call-heading {
+  font-size: 2rem;
+  margin: 1.5rem 1rem;
+}
+
+.video-call-first-paragraph {
+  font-size: 1.3rem;
+  color: rgb(59, 59, 59);
+  margin: 1rem 1rem;
+}
+
+.video-call-second-paragraph {
+  font-size: 1.2rem;
+  color: grey;
+  margin: 1rem;
+}
+
+.order-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 1rem;
+}
+
+.chat-picture {
+  margin: 1rem;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.experience {
+  background-color: #fb8e0b;
+  padding: 1rem;
+  text-align: center;
+}
+
+.experience-heading {
+  font-size: 2rem;
+  color: white;
+  margin: 1rem 0;
+}
+
+.ceo1 {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.downward-triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 30px solid white;
+  position: absolute;
+  left: 135px;
+  z-index: 0;
+}
+
+.ceo-report {
+  font-size: 1.5rem;
+  color: #da7d0b;
+}
+
+.ceo-report-comment {
+  color: grey;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.ceo-profile {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+.ceo-profile-name {
+  color: white;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.ceo-company {
+  color: white;
+  margin-left: 1.6rem;
+}
+
+.business-growth {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.business-growth-heading {
+  font-size: 2.2rem;
+}
+
+.business-growth-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 18px;
+  border-radius: 10px;
+  border: none;
+  margin: 1.5rem auto;
+  background: orange;
+}
+
+.business-growth-logo {
+  text-align: senter;
+  font-size: 2.7rem;
+  color: #fb8e0b;
+}
+
+.business-link {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.footer {
+  margin: 1rem;
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.rights {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
