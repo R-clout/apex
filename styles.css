@@ -8,6 +8,10 @@
   --logo-color: #fb8e0b;
 }
 
+body {
+  min-width: 375px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -104,7 +108,7 @@ button {
 }
 
 .hero-section {
-  margin: 2rem 1rem;
+  text-align: center;
 }
 
 .features {
@@ -130,7 +134,7 @@ button {
   font-size: 1.1rem;
 }
 .video-call-image {
-  margin: 1rem;
+  text-align: center;
 }
 .video-call-heading {
   font-size: 2rem;
@@ -156,7 +160,7 @@ button {
 }
 
 .chat-picture {
-  margin: 1rem;
+  text-align: center;
 }
 
 .ratings {
@@ -190,7 +194,8 @@ button {
   border-right: 50px solid transparent;
   border-top: 30px solid white;
   position: absolute;
-  left: 135px;
+  left: 50%;
+  margin-left: -50px;
   z-index: 0;
 }
 
